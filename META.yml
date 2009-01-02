@@ -1,0 +1,23 @@
+--- #YAML:1.0
+name:               Acme-Curses-Marquee-Extensions
+version:            0.03
+abstract:           Extensions for Acme::Curses::Marquee
+author:
+    - Jerrad Pierce <belg4mit@mit.edu>
+license:            unknown
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Acme::Curses::Marquee:  ~
+    Curses:               ~
+    Term::ANSIColor:      ~
+    Text::FIGlet:         2
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.48
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
