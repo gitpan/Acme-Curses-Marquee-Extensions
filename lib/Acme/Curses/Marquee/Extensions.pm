@@ -4,7 +4,7 @@ use warnings;
 require 5.006;
 
 use base 'Acme::Curses::Marquee';
-our $VERSION = 0.03;
+our $VERSION = 0.04;
 
 use Text::FIGlet 2.00;
 use Curses qw(A_BLINK);          #Don't clobber scroll!    XXX

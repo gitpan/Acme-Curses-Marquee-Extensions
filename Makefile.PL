@@ -7,10 +7,10 @@ WriteMakefile(
     PREREQ_PM         => {
 			  Acme::Curses::Marquee => undef,
 			  Curses => undef,
+			  Every => undef,
 			  Term::ANSIColor => undef,
 			  Text::FIGlet => 2.00,
 			 },
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
-      (ABSTRACT_FROM  => 'lib/Acme/Curses/Marquee/Extensions.pm',
-       AUTHOR         => 'Jerrad Pierce <belg4mit@mit.edu>') : ()),
+      (ABSTRACT_FROM  => 'lib/Acme/Curses/Marquee/Extensions.pm') : ()),
 );
